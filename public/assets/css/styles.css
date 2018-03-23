@@ -23,7 +23,7 @@
   src: url("../fonts/TT-Drugs-Regular.otf"); }
 
 html, body {
-  height: 100%; }
+  height: 100vh; }
 
 .dicti-navbar {
   height: 94px;
@@ -65,7 +65,8 @@ html, body {
 
 .dicti-input-message-row {
   background-color: #63c0eb;
-  padding: 7px 0; }
+  padding: 7px 0;
+  margin-bottom: 0; }
 
 .dicti-input-message {
   width: 100%;
@@ -78,10 +79,11 @@ html, body {
   color: #3F6688; }
 
 .dicti-send {
-  cursor: pointer; }
+  cursor: pointer;
+  float: left; }
 
 .dicti-dialog-container {
-  height: 60%;
+  height: 80%;
   overflow: hidden;
   overflow-y: scroll; }
 
@@ -92,9 +94,13 @@ html, body {
   width: 100%;
   height: 100%; }
 
+.dicti-sticky-input {
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+
 .button-container {
-  position: relative;
-  top: 60%; }
+  position: relative; }
   .button-container button {
     background-color: #E17639;
     font-family: 'Helvetica Rounded Bold';
@@ -104,3 +110,16 @@ html, body {
     border-radius: 30px;
     border: none;
     padding: 15px 30px 15px 30px; }
+
+.dicti-coucou {
+  font-family: 'Helvetica Rounded Bold';
+  color: #FFFFFF;
+  font-size: 35px; }
+
+.dicti-appelle {
+  font-family: 'TT Drugs Regular';
+  color: #FFFFFF;
+  font-size: 19px; }
+
+.dicti-pres-container {
+  margin-top: 100px; }

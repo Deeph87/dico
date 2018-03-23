@@ -2,6 +2,7 @@
 @import "colors";
 @import "fonts";
 @import "variables";
+//@import "haoshi";
 
 //body { width: 500px; margin: 0 auto; text-align: center; margin-top: 20px; }
 //div {  position: absolute; }
@@ -10,7 +11,7 @@
 //textarea { width: 100%; }
 
 html, body {
-  height: 100%;
+  height: 100vh;
 }
 
 //main {
@@ -51,6 +52,12 @@ html, body {
       font-size: 19px;
     }
   }
+  //&:before{
+  //  content: url("../images/dicti_dialog.png");
+  //  position: absolute;
+  //  left: 40px;
+  //  top: 10px;
+  //}
 }
 
 .dicti-user-speech-bubble{
@@ -74,6 +81,7 @@ html, body {
 .dicti-input-message-row {
   background-color: $color4;
   padding: 7px 0;
+  margin-bottom: 0;
 }
 
 .dicti-input-message {
@@ -89,10 +97,11 @@ html, body {
 
 .dicti-send{
   cursor: pointer;
+  float: left;
 }
 
 .dicti-dialog-container {
-  height: 60%;
+  height: 80%;
   overflow: hidden;
   overflow-y: scroll;
 }
@@ -105,9 +114,17 @@ html, body {
   height: 100%
 }
 
+.dicti-sticky-input{
+  position: fixed;
+  //right: 0;
+  bottom: 0;
+  //margin-bottm: 0;
+  //right: 0;
+  width: 100%;
+}
+
 .button-container{
   position: relative;
-  top: 60%;
   button{
     background-color: $color6;
     font-family: 'Helvetica Rounded Bold';
@@ -118,6 +135,22 @@ html, body {
     border: none;
     padding: 15px 30px 15px 30px;
   }
+}
+
+.dicti-coucou {
+  font-family: 'Helvetica Rounded Bold';
+  color: $color5;
+  font-size: 35px;
+}
+
+.dicti-appelle {
+  font-family: 'TT Drugs Regular';
+  color: $color5;
+  font-size: 19px;
+}
+
+.dicti-pres-container{
+  margin-top: 100px;
 }
 
 //@media #{$small-and-down} {

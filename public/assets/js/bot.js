@@ -17,7 +17,6 @@ $(document).ready(function () {
     $('body').on('click', '.dicti-send', function () {
         if ($("#input").val()) {
             send();
-            console.log($("#input"));
             printUserMessage($("#input").val());
             $("#input").val('');
         }
@@ -116,12 +115,20 @@ function setResponses(botResponses, meaning) {
     if (typeof botResponses == 'object') {
         responses = typeof botResponses['result']['fulfillment']['messages'] != 'undefined' ? botResponses['result']['fulfillment']['messages'] : 'Autodestruction dans 5, 4, 3, 2, 1 ... Non je plaisante ! Ca ira mieux la prochaine fois !';
         if (responses.length !== 0) {
-            response.push(responses[0]['speech']);
-            if (typeof meaning !== 'undefined' && meaning.length > 0) {
-                response.push(meaning);
+            if(meaning.length == 0 && typeof botResponses['result']['parameters']['any'] !== 'undefined'){
+                response.push('Désolé, je ne connais pas non plus ce mot.');
+            } else if(meaning.length > 0 && typeof botResponses['result']['parameters']['any'] !== 'undefined') {
+                response.push(responses[0]['speech']);
+                if (typeof meaning !== 'undefined' && meaning.length > 0) {
+                    response.push(meaning);
+                }
+                if (typeof responses[1] !== 'undefined')
+                    response.push(responses[1]['speech']);
+            } else if(meaning.length == 0 && typeof botResponses['result']['parameters']['any'] == 'undefined'){
+                responses.forEach(function (index) {
+                    response.push(index['speech']);
+                });
             }
-            if (typeof responses[1] !== 'undefined')
-                response.push(responses[1]['speech']);
         }
     }
     print(response);
@@ -129,7 +136,6 @@ function setResponses(botResponses, meaning) {
 
 function print(response) {
     resElement = '';
-console.log(response);
     let interval = null;
     let incr = 0;
     let length = response.length;
@@ -139,7 +145,7 @@ console.log(response);
     interval = setInterval(function () {
         if(incr < length){
             resElement += '<div class="row dicti-bot-speech-bubble animated fadeInUp">';
-            resElement += '<div class="col s1"></div>';
+            resElement += '<div class="col s1 right-align"><img src="assets/images/dicti_dialog.png" alt="dicti" style="margin-top: 10px;"></div>';
             resElement += '<div class="col s7 bubble-container">';
             resElement += '<div class="bubble-text-wrapper"><span>' + response[incr] + '</span></div>';
             resElement += '</div>';
@@ -170,13 +176,4 @@ function printUserMessage(userMessage) {
     resElement += '</div>';
 
     $("#response").append(resElement);
-}
-
-function sleep(milliseconds) {
-    let start = new Date().getTime();
-    for (let i = 0; i < 1e7; i++) {
-        if ((new Date().getTime() - start) > milliseconds) {
-            break;
-        }
-    }
 }

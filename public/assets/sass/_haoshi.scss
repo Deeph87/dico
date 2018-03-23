@@ -1,0 +1,185 @@
+html, body {
+    height:100%;
+    width:100%;
+    overflow:hidden;
+    margin:0;
+    background: #66BEEA;
+}
+
+img.bulle {
+    width:280px;
+}
+
+
+img.logo {
+    max-width:280px;
+    margin:0 auto;
+
+
+}
+
+img.logo2 {
+
+    width:280px;
+    margin:0 auto;
+    margin-top:-310px;
+}
+
+
+
+.s1, .s2, .s3, .s5,.s6 {
+    position:relative;
+    height:10%;
+
+}
+
+.s4 {
+    text-align: center;
+
+}
+
+.bulle1 {
+    position: absolute;
+    top: 20px;
+    opacity:0;
+    animation-name: drive1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+
+.bulle2 {
+
+    margin-top: 80px;
+    opacity:0;
+    animation-name: drive2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+}
+
+.bulle3 {
+    opacity:0;
+    animation-name: drive3;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 2.5s;
+}
+
+.bulle4 {
+    opacity:0;
+    animation-name: drive4;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 3.5s;
+
+}
+
+.bulle5 {
+
+    top: 20px;
+    opacity:0;
+    animation-name: drive5;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 4.5s;
+
+}
+
+
+.bulle6 {
+    top: 20px;
+    animation-name: drive2;
+    opacity:0;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 5.5s;
+
+}
+
+.commencer {
+    color:white;
+    background:#E17639;
+    border-radius:22px;
+    padding-top:5px;
+    height:50px;
+    margin-top: 15px;
+}
+
+.commencer:hover {
+    border: 2px solid #E17639;
+    background: rgba(0,0,0,0);
+    color:#E17639;
+}
+
+
+
+.s4 h1 {
+    font-size: 42px;
+    margin-top: -80px;
+    color:white;
+    font-weight: bold;
+}
+
+.s4 h3 {
+    margin-top: -8px;
+    color:white;
+    font-weight: lighter;
+
+}
+
+.s4 h4 {
+    font-size: 25px;
+    line-height: 15%;
+    font-weight:bold;
+}
+
+
+
+
+@keyframes drive1 {
+    from{ transform: translateX(0)}
+    to{ transform: translateX(80px)}
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes drive2 {
+    from{ transform: translateX(0)}
+    to{ transform: translateX(-40px)}
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes drive3 {
+    from{ transform: translateX(0)}
+    to{ transform: translateX(160px)}
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes drive4 {
+    from{ transform: translateX(0)}
+    to{ transform: translateX(-80px)}
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes drive5 {
+    from{ transform: translateX(0)}
+    to{ transform: translateX(100px)}
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@media (min-width: 576px){
+    img.logo {
+        max-width:260px;
+        margin:0 auto;
+    }
+    img.logo2 {
+        max-width:260px;
+        margin:0 auto;
+        margin-top:-290px;
+    }
+}

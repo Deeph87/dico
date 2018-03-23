@@ -15,8 +15,8 @@ class GlosbeWrapper
     {
         $ret = [];
         if (!empty($word)) {
-            $word = strtolower($word);
-            $url = 'https://glosbe.com/gapi/translate?from=' . $from . '&dest=' . $dest . '&format=json&pretty=false&phrase=' . $word;
+            $word = urlencode(strtolower($word));
+            $url = 'https://glosbe.com/gapi/translate?from=' . $from . '&dest=' . $dest . '&format=json&pretty=false&phrase=' . htmlspecialchars($word);
             $curl = curl_init();
 
             curl_setopt_array($curl, [

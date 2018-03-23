@@ -15,7 +15,7 @@ use App\Controllers;
 //// Render index view
 //    return $this->renderer->render($response, 'index.phtml', $args);
 //});
-$app->get('/', Controllers\HomeController::class . ':show');
+$app->get('/', Controllers\BotController::class . ':show');
 
 $app->get('/bot', Controllers\BotController::class . ':show');
 
