@@ -1,0 +1,50 @@
+version: '3.5'
+
+services:
+
+    php:
+        container_name: dicoPHP
+        build: docker/php
+        ports:
+            - 9000:9000
+        links:
+            - db
+        volumes:
+            - .:/var/www/html
+            - ./docker/php/logs:/var/www/app/var/logs
+        depends_on:
+            - db
+        environment:
+            - DICO_DB_HOST=localhost
+            - DICO_DB_PORT=3306
+            - DICO_DB_NAME=dico
+            - DICO_DB_USER=user
+            - DICO_DB_PASSWORD=password
+            - DICO_DB_ROOT_PASSWORD=root
+
+
+    server:
+        container_name: dicoNginx
+        image: nginx:alpine
+        ports:
+            - 8080:80
+        links:
+            - php
+            - db
+        volumes:
+            - .:/var/www/html
+            - ./docker/nginx:/etc/nginx/conf.d
+            - ./docker/nginx/logs/:/var/log/nginx
+
+    db:
+        container_name: dicoMySQL
+        image: mysql:5.7.21
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABASE: dico
+            MYSQL_USER: user
+            MYSQL_PASSWORD: password
+        ports:
+            - 3306:3306
+#        volumes:
+#            - ./docker/mysql:/var/lib/mysql

@@ -1,0 +1,20 @@
+{% extends 'layouts/main1.twig' %}
+
+{% block content %}
+    <div id="response" class="dicti-dialog-container"></div>
+    <div class="dicti-sticky-input center-align">
+        <div class="row dicti-input-message-row">
+            <div class="col s10 offset-s1">
+                <input id="input" type="text" class="browser-default dicti-input-message">
+            </div>
+            <div class="col s1">
+                <img class="dicti-send" src="assets/images/send.png" alt="send">
+            </div>
+        </div>
+        {#<div class="row">#}
+            {#<div class="col s2 offset-s10">#}
+                {#<button id="rec">Speak</button>#}
+            {#</div>#}
+        {#</div>#}
+    </div>
+{% endblock %}
