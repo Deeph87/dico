@@ -1,9 +1,152 @@
 @import "mixins";
 @import "colors";
 @import "fonts";
+@import "variables";
 
-body { width: 500px; margin: 0 auto; text-align: center; margin-top: 20px; }
+//body { width: 500px; margin: 0 auto; text-align: center; margin-top: 20px; }
 //div {  position: absolute; }
-input { width: 400px; }
-button { width: 50px; }
-textarea { width: 100%; }
+//input { width: 400px; }
+//button { width: 50px; }
+//textarea { width: 100%; }
+
+html, body {
+  height: 100%;
+}
+
+//main {
+//  flex: 1 0 auto;
+//}
+
+.dicti-navbar{
+  height: 94px;
+  background-color: $color1;
+  font-family: 'Helvetica Rounded Bold';
+  box-shadow: none;
+  img{
+    width: 55px;
+  }
+  .brand-logo{
+    font-size: 45px;
+  }
+  .brand-logo:before{
+    content: url('../images/logo55x.png');
+    position: relative;
+    right: 10px;
+    top: 10px;
+  }
+}
+
+.dicti-bot-speech-bubble{
+  margin: 10px 0;
+  //.col{
+  //  background-color: #00aa88;
+  //}
+  .bubble-text-wrapper{
+    padding: 10px 20px 10px 20px;
+    background-color: $color2;
+    border-radius: 30px;
+    span{
+      word-wrap: break-word;
+      color: $color3;
+      font-size: 19px;
+    }
+  }
+}
+
+.dicti-user-speech-bubble{
+  margin: 10px 0;
+  //.col{
+  //  background-color: #00aa88;
+  //}
+  .bubble-text-wrapper{
+    padding: 10px 20px 10px 20px;
+    background-color: $color4;
+    border-radius: 30px;
+    span{
+      word-wrap: break-word;
+      color: $color5;
+      font-size: 19px;
+      font-family: 'TT Drugs Regular';
+    }
+  }
+}
+
+.dicti-input-message-row {
+  background-color: $color4;
+  padding: 7px 0;
+}
+
+.dicti-input-message {
+  width: 100%;
+  height: 36px;
+  border-radius: 30px;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  font-size: 14px;
+  font-family: "TT Drugs Light";
+  color: $color3
+}
+
+.dicti-send{
+  cursor: pointer;
+}
+
+.dicti-dialog-container {
+  height: 60%;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.dicti-modal {
+  position: fixed;
+  z-index: 1;
+  background-color: $color1;
+  width: 100%;
+  height: 100%
+}
+
+.button-container{
+  position: relative;
+  top: 60%;
+  button{
+    background-color: $color6;
+    font-family: 'Helvetica Rounded Bold';
+    color: $color5;
+    font-size: 23px;
+    border: none;
+    border-radius: 30px;
+    border: none;
+    padding: 15px 30px 15px 30px;
+  }
+}
+
+//@media #{$small-and-down} {
+//  .dicti-dialog-container {
+//    background-color: red;
+//    height: 300px;
+//  }
+//}
+//@media #{$medium-and-up} {
+//  .dicti-dialog-container {
+//    background-color: red;
+//    height: 400px;
+//  }
+//}
+//@media #{$medium-and-down} {
+//  .dicti-dialog-container {
+//    background-color: red;
+//    height: 500px;
+//  }
+//}
+//@media #{$large-and-up} {
+//  .dicti-dialog-container {
+//    background-color: red;
+//    height: 600px;
+//  }
+//}
+//@media #{$extra-large-and-up} {
+//  .dicti-dialog-container {
+//    background-color: red;
+//    height: 700px;
+//  }
+//}

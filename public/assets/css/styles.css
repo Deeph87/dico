@@ -22,17 +22,85 @@
   font-weight: 700;
   src: url("../fonts/TT-Drugs-Regular.otf"); }
 
-body {
-  width: 500px;
-  margin: 0 auto;
-  text-align: center;
-  margin-top: 20px; }
+html, body {
+  height: 100%; }
 
-input {
-  width: 400px; }
+.dicti-navbar {
+  height: 94px;
+  background-color: #66bfeb;
+  font-family: 'Helvetica Rounded Bold';
+  box-shadow: none; }
+  .dicti-navbar img {
+    width: 55px; }
+  .dicti-navbar .brand-logo {
+    font-size: 45px; }
+  .dicti-navbar .brand-logo:before {
+    content: url("../images/logo55x.png");
+    position: relative;
+    right: 10px;
+    top: 10px; }
 
-button {
-  width: 50px; }
+.dicti-bot-speech-bubble {
+  margin: 10px 0; }
+  .dicti-bot-speech-bubble .bubble-text-wrapper {
+    padding: 10px 20px 10px 20px;
+    background-color: #e5e5e5;
+    border-radius: 30px; }
+    .dicti-bot-speech-bubble .bubble-text-wrapper span {
+      word-wrap: break-word;
+      color: #3F6688;
+      font-size: 19px; }
 
-textarea {
-  width: 100%; }
+.dicti-user-speech-bubble {
+  margin: 10px 0; }
+  .dicti-user-speech-bubble .bubble-text-wrapper {
+    padding: 10px 20px 10px 20px;
+    background-color: #63c0eb;
+    border-radius: 30px; }
+    .dicti-user-speech-bubble .bubble-text-wrapper span {
+      word-wrap: break-word;
+      color: #FFFFFF;
+      font-size: 19px;
+      font-family: 'TT Drugs Regular'; }
+
+.dicti-input-message-row {
+  background-color: #63c0eb;
+  padding: 7px 0; }
+
+.dicti-input-message {
+  width: 100%;
+  height: 36px;
+  border-radius: 30px;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  font-size: 14px;
+  font-family: "TT Drugs Light";
+  color: #3F6688; }
+
+.dicti-send {
+  cursor: pointer; }
+
+.dicti-dialog-container {
+  height: 60%;
+  overflow: hidden;
+  overflow-y: scroll; }
+
+.dicti-modal {
+  position: fixed;
+  z-index: 1;
+  background-color: #66bfeb;
+  width: 100%;
+  height: 100%; }
+
+.button-container {
+  position: relative;
+  top: 60%; }
+  .button-container button {
+    background-color: #E17639;
+    font-family: 'Helvetica Rounded Bold';
+    color: #FFFFFF;
+    font-size: 23px;
+    border: none;
+    border-radius: 30px;
+    border: none;
+    padding: 15px 30px 15px 30px; }
