@@ -18,6 +18,7 @@ use App\Controllers;
 $app->get('/', Controllers\BotController::class . ':show');
 
 $app->get('/bot', Controllers\BotController::class . ':show');
+$app->get('/anim', Controllers\BotController::class . ':anim');
 
 $app->get('/getrandworddefinition', Controllers\AjaxBotController::class . ':getRandWordDefinition');
 

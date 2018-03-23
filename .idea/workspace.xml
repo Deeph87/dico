@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68c160e1-0c21-41ac-b236-8aa90f74a63a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/leo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/texte.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/sass/_haoshi.scss" />
-      <change beforePath="$PROJECT_DIR$/.idea/dico.iml" afterPath="$PROJECT_DIR$/.idea/dico.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/anim.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/haoshi.css" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/BotController.php" afterPath="$PROJECT_DIR$/app/controllers/BotController.php" />
       <change beforePath="$PROJECT_DIR$/app/views/includes/begining.html" afterPath="$PROJECT_DIR$/app/views/includes/begining.html" />
-      <change beforePath="$PROJECT_DIR$/app/views/includes/css.html" afterPath="$PROJECT_DIR$/app/views/includes/css.html" />
-      <change beforePath="$PROJECT_DIR$/app/views/includes/navbar.html" afterPath="$PROJECT_DIR$/app/views/includes/navbar.html" />
-      <change beforePath="$PROJECT_DIR$/app/views/pages/bot.twig" afterPath="$PROJECT_DIR$/app/views/pages/bot.twig" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/main1.twig" afterPath="$PROJECT_DIR$/app/views/layouts/main1.twig" />
       <change beforePath="$PROJECT_DIR$/docker/nginx/logs/access.log" afterPath="$PROJECT_DIR$/docker/nginx/logs/access.log" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/styles.css" afterPath="$PROJECT_DIR$/public/assets/css/styles.css" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/01. page login Orange Copy.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/bot.js" afterPath="$PROJECT_DIR$/public/assets/js/bot.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/global.js" afterPath="$PROJECT_DIR$/public/assets/js/global.js" />
-      <change beforePath="$PROJECT_DIR$/public/assets/sass/styles.scss" afterPath="$PROJECT_DIR$/public/assets/sass/styles.scss" />
-      <change beforePath="$PROJECT_DIR$/services/GlosbeWrapper.php" afterPath="$PROJECT_DIR$/services/GlosbeWrapper.php" />
       <change beforePath="$PROJECT_DIR$/src/routes.php" afterPath="$PROJECT_DIR$/src/routes.php" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -34,24 +25,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="begining.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/includes/begining.html">
+      <file leaf-file-name="main1.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/main1.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="1" column="46" lean-forward="false" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+            <state relative-caret-position="279">
+              <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tete.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/images/tete.svg">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="begining.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/includes/begining.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/assets/sass/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
@@ -61,38 +57,63 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="texte.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/images/texte.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="bot.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/pages/bot.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="yeux.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/images/yeux.svg">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="20" column="60" lean-forward="false" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+              <folding>
+                <marker date="1521812239938" expanded="true" signature="1172:1390" ph="INSERT INTO `users`... " />
+                <marker date="1521812239938" expanded="true" signature="2758:2794" ph="SELECT * FRO... users" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="send.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/images/send.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="BotController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/BotController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="426">
+              <caret line="33" column="72" lean-forward="true" selection-start-line="33" selection-start-column="72" selection-end-line="33" selection-end-column="72" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rectangle.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/images/Rectangle.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="anim.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/pages/anim.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="57" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Page 1.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/images/Page 1.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="haoshi.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/assets/css/haoshi.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5704">
+              <caret line="184" column="1" lean-forward="false" selection-start-line="184" selection-start-column="1" selection-end-line="184" selection-end-column="1" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -122,7 +143,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>FastRoute\Bad</find>
       <find>BrowserModule</find>
       <find>.angular</find>
       <find>scripts.bundle.js</find>
@@ -151,6 +171,7 @@
       <find>dicti</find>
       <find>dicti-bot-speech-bubble</find>
       <find>container</find>
+      <find>dicti-pres</find>
       <find>img/</find>
     </findStrings>
     <replaceStrings>
@@ -167,8 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/app/slim/src/dependencies.php" />
-        <option value="$PROJECT_DIR$/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/src/app/login-view/login-view.component.html" />
         <option value="$PROJECT_DIR$/src/app/auth-guard.service.ts" />
         <option value="$PROJECT_DIR$/.angular-cli.json" />
@@ -185,7 +204,6 @@
         <option value="$PROJECT_DIR$/app/controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/views/includes/css" />
-        <option value="$PROJECT_DIR$/app/controllers/BotController.php" />
         <option value="$PROJECT_DIR$/public/assets/css/sass/style.scss" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/public/assets/sass/style.scss" />
@@ -206,9 +224,7 @@
         <option value="$PROJECT_DIR$/app/views/includes/foot.html" />
         <option value="$PROJECT_DIR$/public/assets/sass/_variables.scss" />
         <option value="$PROJECT_DIR$/public/assets/sass/_colors.scss" />
-        <option value="$PROJECT_DIR$/app/views/layouts/main1.twig" />
         <option value="$PROJECT_DIR$/services/GlosbeWrapper.php" />
-        <option value="$PROJECT_DIR$/src/routes.php" />
         <option value="$PROJECT_DIR$/public/assets/js/global.js" />
         <option value="$PROJECT_DIR$/app/views/pages/bot.twig" />
         <option value="$PROJECT_DIR$/public/assets/js/bot.js" />
@@ -216,8 +232,13 @@
         <option value="$PROJECT_DIR$/public/assets/sass/_haoshi" />
         <option value="$PROJECT_DIR$/app/views/includes/js.html" />
         <option value="$PROJECT_DIR$/app/views/includes/css.html" />
-        <option value="$PROJECT_DIR$/app/views/includes/begining.html" />
         <option value="$PROJECT_DIR$/public/assets/sass/styles.scss" />
+        <option value="$PROJECT_DIR$/app/controllers/BotController.php" />
+        <option value="$PROJECT_DIR$/public/assets/css/haoshi.css" />
+        <option value="$PROJECT_DIR$/src/routes.php" />
+        <option value="$PROJECT_DIR$/app/views/pages/anim.twig" />
+        <option value="$PROJECT_DIR$/app/views/includes/begining.html" />
+        <option value="$PROJECT_DIR$/app/views/layouts/main1.twig" />
       </list>
     </option>
   </component>
@@ -281,7 +302,7 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
     <option name="y" value="23" />
     <option name="width" value="1680" />
@@ -460,16 +481,15 @@
       <updated>1521555050319</updated>
       <workItem from="1521555052779" duration="11998000" />
       <workItem from="1521623747226" duration="68572000" />
-      <workItem from="1521790047890" duration="8727000" />
+      <workItem from="1521790047890" duration="10389000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89297000" />
+    <option name="totallyTimeSpent" value="90959000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="23" width="1680" height="969" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1" y="23" width="1680" height="969" extended-state="0" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20879121" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -505,15 +525,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/assets/css/style.css" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/sass/lib/sass.jar!/org/jetbrains/plugins/sass/stdlib/sass_functions.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="916">
-          <caret line="600" column="10" lean-forward="false" selection-start-line="600" selection-start-column="10" selection-end-line="600" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="452">
@@ -570,13 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="35" column="66" lean-forward="false" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/BotController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -702,25 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="19" column="42" lean-forward="false" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-          <folding>
-            <marker date="1521800803614" expanded="true" signature="1108:1326" ph="INSERT INTO `users`... " />
-            <marker date="1521800803614" expanded="true" signature="2694:2730" ph="SELECT * FRO... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/main1.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js/global.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -736,14 +721,6 @@
           <folding>
             <marker date="1521807161392" expanded="true" signature="4956:4973" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/bot.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -831,10 +808,37 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/includes/begining.html">
+    <entry file="file://$PROJECT_DIR$/app/controllers/BotController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="1" column="46" lean-forward="false" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+        <state relative-caret-position="426">
+          <caret line="33" column="72" lean-forward="true" selection-start-line="33" selection-start-column="72" selection-end-line="33" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/css/haoshi.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5704">
+          <caret line="184" column="1" lean-forward="false" selection-start-line="184" selection-start-column="1" selection-end-line="184" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="20" column="60" lean-forward="false" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+          <folding>
+            <marker date="1521812239938" expanded="true" signature="1172:1390" ph="INSERT INTO `users`... " />
+            <marker date="1521812239938" expanded="true" signature="2758:2794" ph="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/bot.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -844,6 +848,39 @@
         <state relative-caret-position="175">
           <caret line="151" column="22" lean-forward="true" selection-start-line="151" selection-start-column="22" selection-end-line="151" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/includes/begining.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/main1.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/anim.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="57" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

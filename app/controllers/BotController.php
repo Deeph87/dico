@@ -29,4 +29,8 @@ class BotController
     public function show(RequestInterface $request, ResponseInterface $response, $args){
         $this->container->view->render($response, 'pages/bot.twig', $args);
     }
+
+    public function anim(RequestInterface $request, ResponseInterface $response, $args){
+        $this->container->view->render($response, 'pages/anim.twig', $args);
+    }
 }
